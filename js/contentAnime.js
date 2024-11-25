@@ -1,5 +1,5 @@
 const whoAmIContent = document.querySelector('.who-am-i-container');
-const techContent = document.querySelector('.tech-stack-container');
+const techContent = document.querySelectorAll('.tech-stack-container');
 const techBars = document.querySelectorAll('.tech-bar');
 
 function whoAmIAnime() {
@@ -13,12 +13,14 @@ function whoAmIAnime() {
 }
 
 function techContentAnime() {
-    const rect = techContent.getBoundingClientRect();
-    const offset = 0;
-    const isVisible = rect.top < window.innerHeight - offset && rect.bottom > 0;
-
-    if(isVisible) 
-        techContent.classList.add('visible');
+    techContent.forEach( (content) => {
+        const rect = content.getBoundingClientRect();
+        const offset = 0;
+        const isVisible = rect.top < window.innerHeight - offset && rect.bottom > 0;
+    
+        if(isVisible) 
+            content.classList.add('visible');
+    });
 }
 
 function techBarsAnime() {

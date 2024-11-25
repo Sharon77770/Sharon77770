@@ -17,7 +17,7 @@ body, html {
 
 /* 헤더 스타일 */
 header {
-    background: url('coding_img.jpg') no-repeat center center/cover;
+    background: url('/img/coding_img.jpg') no-repeat center center/cover;
     height: 100vh;
     color: white;
     position: relative;
@@ -193,6 +193,10 @@ section ul li {
     background-color: #f0f0f0;
 }
 
+#dev-areas {
+    background-color: #ffffff;
+}
+
 
 /*카드 css*/
 .card-grid {
@@ -311,23 +315,7 @@ section ul li {
     border-radius: 10px;
     width: 0; /* 초기 너비를 0으로 설정 */
     transition: width 1.5s ease-in-out; /* 애니메이션 효과 */
-}
-
-/* 색상 정의 */
-.tech-bar.java {
-    background-color: #FF5733;
-}
-
-.tech-bar.python {
-    background-color: #34A853;
-}
-
-.tech-bar.cpp {
-    background-color: #306D9A;
-}
-
-.tech-bar.web {
-    background-color: #F4C542;
+    background-color: #009adc;
 }
 
 .tech-bar.visible {
