@@ -1,15 +1,17 @@
-const whoAmIContent = document.querySelector('.who-am-i-container');
+const titleAndListContents = document.querySelectorAll('.title-and-list-container');
 const techContent = document.querySelectorAll('.tech-stack-container');
 const techBars = document.querySelectorAll('.tech-bar');
 
-function whoAmIAnime() {
-    const rect = whoAmIContent.getBoundingClientRect();
-    const offset = 300;
-    const isVisible = rect.top < window.innerHeight - offset && rect.bottom > 0;
-
-    if(isVisible) {
-        whoAmIContent.classList.add('visible');
-    }
+function titleAndListAnime() {
+    titleAndListContents.forEach( titleAndListContent => {
+        const rect = titleAndListContent.getBoundingClientRect();
+        const offset = 300;
+        const isVisible = rect.top < window.innerHeight - offset && rect.bottom > 0;
+    
+        if(isVisible) {
+            titleAndListContent.classList.add('visible');
+        }
+    });
 }
 
 function techContentAnime() {
@@ -42,7 +44,7 @@ function techBarsAnime() {
 
 
 const handleScroll = () => {
-    whoAmIAnime();
+    titleAndListAnime();
     techContentAnime();
     techBarsAnime();
 }
