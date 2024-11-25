@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - 나를 소개합니다</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- 전체 레이아웃을 감싸는 컨테이너 -->
+    <div class="wrapper">
+
+        <!-- 상단 헤더 섹션 -->
+        <header>
+            <div class="header-content">
+                <h1>Hello! I'm Minjae-Joo</h1>
+                <p>소프트웨어 개발자 | 끊임없이 성장하는 Learner</p>
+            </div>
+        </header>
+
+        <!-- 소개 섹션 -->
+        <section id="who-am-i">
+            <div class="who-am-i-container">
+                <div class="who-am-i-title">
+                    <h2>Who am I?</h2>
+                </div>
+                <div class="who-am-i-content">
+                    <ul>
+                        <li><strong>이름:</strong> 주민재</li>
+                        <li><strong>학교:</strong> 국민대학교 소프트웨어학부 재학생 (24학번 특기자)</li>
+                        <li><strong>개발 분야:</strong> Front-End, Back-End, 채팅봇, 안드로이드 네이티브 앱, 시스템 </li>
+                        <li><strong>관심 분야:</strong> 소프트웨어 개발, 시스템 설계, 웹 개발</li>
+                        <li><strong>목표:</strong> 다양한 프로젝트 경험을 쌓아, 여러 분야에서 뛰어난 리더가 되고싶습니다!</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!--기술 스택 세션-->
+        <section id="tech-stack">
+            <div class="tech-stack-container">
+                <div class="tech-stack-title">
+                    <h2>Technology Stack</h2>
+                </div>
+                <div class="tech-stack-content">
+                    <div class="tech-item">
+                        <p>Java</p>
+                        <div class="tech-bar-container">
+                            <div class="tech-bar java" data-width="90%" ></div>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <p>Python</p>
+                        <div class="tech-bar-container">
+                            <div class="tech-bar python" data-width="90%" ></div>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <p>C++</p>
+                        <div class="tech-bar-container">
+                            <div class="tech-bar cpp" data-width="90%" ></div>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <p>Web Development</p>
+                        <div class="tech-bar-container">
+                            <div class="tech-bar web" data-width="90%" ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- 관심사 섹션 -->
+        <section id="interests" class="cards">
+            <h2>관심사</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>프로그래밍</h3>
+                    <p>Java, Python, C++ 등 다양한 언어로 문제를 해결하는 데 열정을 가지고 있습니다.</p>
+                </div>
+                <div class="card">
+                    <h3>게임 개발</h3>
+                    <p>Unity 및 Unreal Engine으로 게임을 제작하며 창의적인 세계를 탐구합니다.</p>
+                </div>
+                <div class="card">
+                    <h3>웹 개발</h3>
+                    <p>효율적이고 직관적인 웹 애플리케이션을 설계하고 구현하는 데 관심이 많습니다.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <br>
+
+        <!-- 프로젝트 섹션 -->
+        <section id="projects" class="cards">
+            <h2>프로젝트</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>[프로젝트 1]</h3>
+                    <p>[간단한 설명]</p>
+                    <a href="#" class="more-button">더 보기</a>
+                </div>
+                <div class="card">
+                    <h3>[프로젝트 2]</h3>
+                    <p>[간단한 설명]</p>
+                    <a href="#" class="more-button">더 보기</a>
+                </div>
+                <div class="card">
+                    <h3>[프로젝트 3]</h3>
+                    <p>[간단한 설명]</p>
+                    <a href="#" class="more-button">더 보기</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 문의 섹션 -->
+        <section id="contact">
+            <div class="content">
+                <h2>문의하기</h2>
+                <p>저에게 연락하고 싶으시면 <a href="mailto:your-email@example.com">your-email@example.com</a>로 이메일을 보내주세요.</p>
+                <p>또는 <a href="https://github.com/your-profile" target="_blank">GitHub</a>에서 더 많은 작업물을 확인하실 수 있습니다.</p>
+            </div>
+        </section>
+
+        <!-- 푸터 -->
+        <footer>
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+            <p><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn에서 연결하기</a></p>
+        </footer>
+    </div>
+    <script src="js/contentAnime.js"></script>
+</body>
+</html>
