@@ -1,12 +1,15 @@
+const OFFSET = 100;
+
 const titleAndListContents = document.querySelectorAll('.title-and-list-container');
 const techContent = document.querySelectorAll('.tech-stack-container');
 const techBars = document.querySelectorAll('.tech-bar');
+const projectContentTitle = document.querySelector('.cards-title');
+const projectCardList = document.querySelectorAll('.card');
 
 function titleAndListAnime() {
     titleAndListContents.forEach( titleAndListContent => {
         const rect = titleAndListContent.getBoundingClientRect();
-        const offset = 300;
-        const isVisible = rect.top < window.innerHeight - offset && rect.bottom > 0;
+        const isVisible = rect.top < window.innerHeight - OFFSET && rect.bottom > 0;
     
         if(isVisible) {
             titleAndListContent.classList.add('visible');
@@ -18,7 +21,7 @@ function techContentAnime() {
     techContent.forEach( (content) => {
         const rect = content.getBoundingClientRect();
         const offset = 0;
-        const isVisible = rect.top < window.innerHeight - offset && rect.bottom > 0;
+        const isVisible = rect.top < window.innerHeight - OFFSET && rect.bottom > 0;
     
         if(isVisible) 
             content.classList.add('visible');
@@ -26,27 +29,46 @@ function techContentAnime() {
 }
 
 function techBarsAnime() {
-    setTimeout(() => {
-        techBars.forEach( (bar, idx) => {
-            setTimeout(() => {
-                const rect = bar.getBoundingClientRect();
-                const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
-
-                if(isVisible){ 
-                    const targetWidth = bar.getAttribute('data-width');
-                    bar.style.width = targetWidth;
-                    bar.classList.add('visible')
-                }
-            }, idx * 300);
-        });
-    }, 0);
+    techBars.forEach( (bar, idx) => {
+        const rect = bar.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight - OFFSET && rect.bottom > 0;
+        
+        if(isVisible){ 
+            const targetWidth = bar.getAttribute('data-width');
+            bar.style.width = targetWidth;
+            bar.classList.add('visible')
+        }
+    });
 }
 
+function projectContentTitleAnime() {
+    const rect = projectContentTitle.getBoundingClientRect();
+    const isVisible = rect.top < window.innerHeight - OFFSET && rect.bottom > 0;
+
+    if(isVisible)
+        projectContentTitle.classList.add('visible');
+}
+
+function projectCardAnime() {
+    console.log(projectCardList.length)
+    projectCardList.forEach( (card, idx) => {
+        const rect = card.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight - OFFSET && rect.bottom > 0;
+        
+        if(isVisible) {
+            setTimeout(()=>{
+                card.classList.add('visible');
+            }, idx * 300);
+        }
+    });
+}
 
 const handleScroll = () => {
     titleAndListAnime();
     techContentAnime();
     techBarsAnime();
+    projectContentTitleAnime();
+    projectCardAnime();
 }
 
 window.addEventListener('scroll', handleScroll);

@@ -194,6 +194,9 @@ section ul li {
     position: relative;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.2s ease, transform 1.2s ease;
 }
 
 .cards-title::after {
@@ -205,6 +208,10 @@ section ul li {
     margin: 0.5rem auto 0; /* 가운데 정렬 */
 }
 
+.cards-title.visible {
+    opacity: 1;
+    transform: translateY(0px);
+}
 
 /*세부적인 세션*/
 #tech-stack {
@@ -234,6 +241,14 @@ section ul li {
     width: 300px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.0s ease, transform 1.0s ease;
+}
+
+.card.visible {
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 .card h3 {
