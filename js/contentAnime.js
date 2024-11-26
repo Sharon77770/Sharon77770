@@ -20,7 +20,6 @@ function titleAndListAnime() {
 function techContentAnime() {
     techContent.forEach( (content) => {
         const rect = content.getBoundingClientRect();
-        const offset = 0;
         const isVisible = rect.top < window.innerHeight - OFFSET && rect.bottom > 0;
     
         if(isVisible) 
