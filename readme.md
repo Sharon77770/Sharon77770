@@ -1,7 +1,7 @@
 # Hi there! 👋
 
 **🚀 Minjae Joo | Software Developer**  
-Backend, Android Native Apps, Full-Stack Development  
+Backend, Android Native Apps Development  
 
 ## 🔧 Technologies & Tools
 
@@ -15,7 +15,6 @@ Backend, Android Native Apps, Full-Stack Development
 
 **Frameworks & Engines**  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)  
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)  
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)  
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
 
