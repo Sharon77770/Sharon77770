@@ -1,178 +1,162 @@
 <!DOCTYPE html>
-<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<html lang="ko" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - 나를 소개합니다</title>
-    <link rel="stylesheet" href="static/main.css">
+    <title>Joo Minjae | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = { darkMode: 'class' }
+    </script>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="js/script.js" defer></script>
 </head>
-<body>
-    <!-- 전체 레이아웃을 감싸는 컨테이너 -->
-    <div class="wrapper">
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-200">
 
-        <!-- 상단 헤더 섹션 -->
-        <header>
-            <div class="header-content">
-                <h1>Hello! I'm Minjae-Joo</h1>
-                <p>소프트웨어 개발자 | 끊임없이 성장하는 Learner</p>
-            </div>
-        </header>
-
-        <!-- 소개 섹션 -->
-        <section id="title-and-list">
-            <div class="title-and-list-container">
-                <div class="title-and-list-title">
-                    <h2>Who am I?</h2>
-                </div>
-                <div class="title-and-list-content">
-                    <ul>
-                        <li><strong>이름:</strong> 주민재</li>
-                        <li><strong>학교:</strong> 국민대학교 소프트웨어학부 재학생 (24학번 특기자)</li>
-                        <li><strong>개발 분야:</strong> Frontend, Backend, 채팅봇, 안드로이드 네이티브 앱, 시스템 </li>
-                        <li><strong>관심 분야:</strong> 소프트웨어 개발, 시스템 설계, 웹 개발</li>
-                        <li><strong>목표:</strong> 다양한 프로젝트 경험을 쌓아, 여러 분야에서 뛰어난 리더가 되고싶습니다!</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-        <!--기술 스택 세션-->
-        <section id="tech-stack">
-            <div class="tech-stack-container">
-                <div class="tech-stack-title">
-                    <h2>Language Skill</h2>
-                </div>
-                <div class="tech-stack-content">
-                    <div class="tech-item">
-                        <p>Java/Kotlin</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar red" data-width="94%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>C/C++</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar violet" data-width="87%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>C#</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar blue" data-width="72%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>Python</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar green" data-width="69%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>JavaScript</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar yellow" data-width="69%" ></div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <!-- 개발 분야 세션 -->
-        <section id="dev-areas">
-            <div class="tech-stack-container">
-                <div class="tech-stack-title">
-                    <h2>Development Areas</h2>
-                </div>
-                <div class="tech-stack-content">
-                    <div class="tech-item">
-                        <p>Full-Stack</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar red" data-width="91%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>Backend</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar violet" data-width="87%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>Database</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar violet" data-width="81%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>Android</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar blue" data-width="72%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>Frontend</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar green" data-width="65%" ></div>
-                        </div>
-                    </div>
-                    <div class="tech-item">
-                        <p>Game</p>
-                        <div class="tech-bar-container">
-                            <div class="tech-bar yellow" data-width="53%" ></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-
-        <!-- 프로젝트 섹션 -->
-        <section id="projects" class="cards">
-            <h2 class="cards-title">Projects</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>The Van of Justice</h3>
-                    <p>Unity 기반의 오픈월드 3D TPS RPG 게임입니다.</p>
-                    <a href="https://store.steampowered.com/app/1761660/The_Van_of_Justice/" class="more-button">더 보기</a>
-                </div>
-                <div class="card">
-                    <h3>KMU Agit</h3>
-                    <p>소모임 구성원들을 위한 커뮤니티 입니다.</p>
-                    <a href="http://agit.xn--9i1b01onwqqzd.xn--3e0b707e/" class="more-button">더 보기</a>
-                </div>
-                <div class="card">
-                    <h3>자이라 봇</h3>
-                    <p>리그오브레전드 팀 밸런싱 디스코드 봇입니다.</p>
-                    <a href="https://koreanbots.dev/bots/1146381094975983716" class="more-button">더 보기</a>
-                </div>
-                <div class="card">
-                    <h3>블루투스 기기 찾기</h3>
-                    <p>BLE의 RSSI 기반 블루투스기기 거리측정 앱입니다.</p>
-                    <a href="https://github.com/Sharon77770/ble-finder" class="more-button">더 보기</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- 문의 섹션 -->
-        <section id="contact">
-            <div class="tech-stack-container">
-                <div class="tech-stack-title">
-                    <h2>How to Contact</h2>
-                </div>
-                <div class="title-and-list-content">
-                    <ul>
-                        <li><strong>Email: </strong>minjaejoo77770@gmail.com</a></li>
-                        <li><strong>GitHub: </strong><a href="https://github.com/Sharon77770" target="_blank">GitHub</a></li>
-                        <li><strong>Instagram: </strong><a href="https://www.instagram.com/sharon77770/" target="_blank">Instagram</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- 푸터 -->
-        <footer>
-            <p>&copy; 2024 Minjae-Joo. All rights reserved.</p>
-            <p><a href="https://www.instagram.com/sharon77770/" target="_blank">Instagram</a></p>
-        </footer>
+    <div class="fixed top-5 right-5 z-50 flex gap-2">
+        <button onclick="toggleDarkMode()" class="bg-slate-800 dark:bg-slate-100 text-white dark:text-slate-900 w-10 h-10 rounded-full shadow-lg flex items-center justify-center transition-all active:scale-90">
+            <i id="theme-icon" class="fa-solid fa-moon"></i>
+        </button>
+        <button onclick="toggleLanguage()" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-full shadow-xl transition-all font-bold text-sm flex items-center gap-2 active:scale-95">
+            <i class="fa-solid fa-globe"></i>
+            <span id="lang-btn-text">English</span>
+        </button>
     </div>
-    <script src="js/contentAnime.js"></script>
+
+    <div class="flex flex-col md:flex-row min-h-screen">
+        <aside class="sidebar w-full md:w-80 text-white p-8 md:fixed md:h-full overflow-y-auto z-40 bg-slate-800 dark:bg-slate-950 border-r border-slate-700 dark:border-slate-800">
+            <div class="flex flex-col items-center text-center">
+                <div class="w-24 h-24 bg-slate-700 rounded-full flex items-center justify-center text-3xl mb-4 border-4 border-slate-600 shadow-inner">
+                    <i class="fa-solid fa-user-shield text-blue-400"></i>
+                </div>
+                <h1 class="text-xl font-bold mb-1 tracking-tight">JOO MINJAE</h1>
+                <p class="text-blue-400 text-[12px] mb-6 font-medium tracking-wide" data-i18n="role"></p>
+                
+                <div class="w-full text-left space-y-3 text-[11px] mb-8 border-t border-slate-700 pt-6">
+                    <div class="flex items-center gap-3"><i class="fa-solid fa-envelope text-blue-400 w-4 text-center"></i> <a href="mailto:minajejoo77770@gmail.com" class="hover:text-blue-300 transition-colors">minajejoo77770@gmail.com</a></div>
+                    <div class="flex items-center gap-3"><i class="fa-brands fa-github text-blue-400 w-4 text-center"></i> <a href="https://github.com/Sharon77770" target="_blank" class="hover:text-blue-300 transition-colors">github.com/Sharon77770</a></div>
+                </div>
+
+                <nav class="w-full text-left space-y-1 mb-8">
+                    <a href="#experience" class="block text-[12px] py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors" data-i18n="nav-exp"></a>
+                    <a href="#security" class="block text-[12px] py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors" data-i18n="nav-sec"></a>
+                    <a href="#others" class="block text-[12px] py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors" data-i18n="nav-others"></a>
+                    <a href="#education" class="block text-[12px] py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors" data-i18n="nav-edu"></a>
+                </nav>
+
+                <div class="w-full text-left space-y-6 pt-6 border-t border-slate-700">
+                    <div>
+                        <h3 class="text-blue-400 text-[10px] font-bold uppercase tracking-[0.2em] mb-3" data-i18n="side-lang">LANGUAGES</h3>
+                        <p class="text-[12px] opacity-80 leading-relaxed font-mono italic">Java, Kotlin, C/C++, Python, TS/JS, C#, HLSL</p>
+                    </div>
+                    <div>
+                        <h3 class="text-blue-400 text-[10px] font-bold uppercase tracking-[0.2em] mb-3" data-i18n="side-tech">TECH & OS</h3>
+                        <p class="text-[12px] opacity-80 leading-relaxed font-mono italic">Docker, Spring Boot, Android, Raspberry Pi, Kali Linux, Linux Kernel Analysis</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="flex-1 md:ml-80 p-6 md:p-12 lg:p-16 max-w-5xl">
+            
+            <section id="experience" class="mb-16">
+                <h2 class="text-3xl font-black mb-10 dark:text-white flex items-center gap-3">
+                    <span class="w-2 h-8 bg-blue-600 rounded-full"></span>
+                    <span data-i18n="section-exp"></span>
+                </h2>
+                <div class="grid gap-6">
+                    <div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 project-card relative overflow-hidden">
+                        <div class="absolute top-0 right-0 bg-blue-600 text-white text-[10px] px-4 py-1.5 font-black tracking-widest" data-i18n="tag-solo"></div>
+                        <h3 class="text-xl font-bold dark:text-white mb-2">CaaS (Container as a Service)</h3>
+                        <p class="text-blue-600 dark:text-blue-400 text-sm font-bold mb-4" data-i18n="p1-sub"></p>
+                        <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 ml-1">
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-blue-500 mt-1"></i> <span data-i18n="p1-l1"></span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 project-card relative overflow-hidden">
+                        <div class="absolute top-0 right-0 bg-slate-500 text-white text-[10px] px-4 py-1.5 font-black tracking-widest" data-i18n="tag-team"></div>
+                        <h3 class="text-xl font-bold dark:text-white mb-2">Kookmin Feed Re-architecting</h3>
+                        <p class="text-blue-600 dark:text-blue-400 text-sm font-bold mb-4" data-i18n="p2-sub"></p>
+                        <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 ml-1">
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-blue-500 mt-1"></i> <span data-i18n="p2-l1"></span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 project-card relative overflow-hidden">
+                        <div class="absolute top-0 right-0 bg-blue-600 text-white text-[10px] px-4 py-1.5 font-black tracking-widest" data-i18n="tag-solo"></div>
+                        <h3 class="text-xl font-bold dark:text-white mb-2">Python Instructor at SSIT</h3>
+                        <p class="text-blue-600 dark:text-blue-400 text-sm font-bold mb-4" data-i18n="p-ssit-sub"></p>
+                        <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 ml-1">
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-blue-500 mt-1"></i> <span data-i18n="p-ssit-l1"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="security" class="mb-16">
+                <h2 class="text-3xl font-black mb-10 dark:text-white flex items-center gap-3">
+                    <span class="w-2 h-8 bg-blue-600 rounded-full"></span>
+                    <span data-i18n="section-sec"></span>
+                </h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border-t-4 border-blue-500 project-card">
+                        <h3 class="text-blue-600 dark:text-blue-400 font-bold mb-3 flex items-center gap-2 italic text-lg"><i class="fa-solid fa-shield-halved"></i> AI Material Security</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed" data-i18n="sec-1"></p>
+                    </div>
+                    <div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border-t-4 border-blue-500 project-card">
+                        <h3 class="text-blue-600 dark:text-blue-400 font-bold mb-3 flex items-center gap-2 italic text-lg"><i class="fa-solid fa-terminal"></i> AlgoLab Security</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed" data-i18n="sec-2"></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="others" class="mb-16">
+                <h2 class="text-3xl font-black mb-10 dark:text-white flex items-center gap-3">
+                    <span class="w-2 h-8 bg-blue-600 rounded-full"></span>
+                    <span data-i18n="nav-others"></span>
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm project-card">
+                        <h4 class="font-bold mb-2 dark:text-white text-sm">BLE Measurement</h4>
+                        <p class="text-[11px] text-slate-400 mb-2 italic">Kalman Filter based</p>
+                        <p class="text-xs text-slate-600 dark:text-slate-400" data-i18n="o1-desc"></p>
+                    </div>
+                    <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm project-card">
+                        <h4 class="font-bold mb-2 dark:text-white text-sm">Personal Cloud Drive</h4>
+                        <p class="text-[11px] text-slate-400 mb-2 italic">Raspberry Pi & Spring Boot</p>
+                        <p class="text-xs text-slate-600 dark:text-slate-400" data-i18n="o2-desc"></p>
+                    </div>
+                    <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm project-card">
+                        <h4 class="font-bold mb-2 dark:text-white text-sm">LLM Travel Planner</h4>
+                        <p class="text-[11px] text-slate-400 mb-2 italic">Android & LLM API</p>
+                        <p class="text-xs text-slate-600 dark:text-slate-400" data-i18n="o3-desc"></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="mb-16">
+                <h2 class="text-3xl font-black mb-10 dark:text-white flex items-center gap-3">
+                    <span class="w-2 h-8 bg-blue-600 rounded-full"></span>
+                    <span data-i18n="nav-edu"></span>
+                </h2>
+                <div class="space-y-4">
+                    <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm flex justify-between items-center">
+                        <div>
+                            <h3 class="font-bold dark:text-white" data-i18n="edu-univ"></h3>
+                            <p class="text-blue-600 dark:text-blue-400 text-sm" data-i18n="edu-major"></p>
+                        </div>
+                        <span class="text-xs font-bold text-slate-400">2024 - Present</span>
+                    </div>
+                    <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm flex justify-between items-center">
+                        <div>
+                            <h3 class="font-bold dark:text-white" data-i18n="award-1-title"></h3>
+                            <p class="text-xs text-slate-500" data-i18n="award-1-org"></p>
+                        </div>
+                        <span class="text-blue-600 font-black italic">2023</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
