@@ -72,7 +72,13 @@ const translations = {
         "p-openworld-d": "Unity 기반 오픈월드 TPS RPG",
 
         "p-angry-t": "Angry Birds Fan Game",
-        "p-angry-d": "Unity기반 아케이드 장르 팬게임"
+        "p-angry-d": "Unity기반 아케이드 장르 팬게임",
+
+        "p-cloud-t": "개인 클라우드 인프라 (Personal Cloud)",
+        "p-cloud-d": "Spring Boot 활용. 가정용 라즈베리파이를 구글 드라이브처럼 사용할 수 있도록 공용/프라이빗 드라이브 시스템을 구축하고 외부 접속 환경을 구성.",
+
+        "p-ble-t": "BLE 기반 블루투스 기기 거리 측정",
+        "p-ble-d": "Android (Kotlin). BLE 신호 세기(RSSI)를 측정하고 칼만 필터(Kalman Filter)를 적용하여 노이즈를 정제한 정밀 실내 거리 측정 구현.",
     },
     en: {
         "role": "System Software & Security Research focused Developer",
@@ -148,7 +154,13 @@ const translations = {
         "p-openworld-d": "Developed a Unity-based Open-World TPS RPG focusing on scalable environmental interaction logic.",
 
         "p-angry-t": "Angry Birds Fan Game",
-        "p-angry-d": "A Unity-based arcade fan game project implementing core physics-based gameplay mechanics."
+        "p-angry-d": "A Unity-based arcade fan game project implementing core physics-based gameplay mechanics.",
+
+        "p-cloud-t": "Personal Cloud Infrastructure",
+        "p-cloud-d": "Built a private cloud and file storage system using Spring Boot and Raspberry Pi, supporting both shared and private drives with secure remote access.",
+
+        "p-ble-t": "BLE Distance Measurement System",
+        "p-ble-d": "Developed an Android application to measure distances between Bluetooth devices using RSSI signals, optimized with a Kalman Filter to reduce noise.",
     }
 };
 
