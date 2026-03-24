@@ -42,7 +42,37 @@ const translations = {
         "edu-univ": "국민대학교 (Kookmin University)",
         "edu-major": "소프트웨어학부 소프트웨어전공 (3학년 재학)",
         "award-1-title": "제8회 국민대학교 알고리즘 대회 장려상",
-        "award-1-org": "국민대학교 소프트웨어융합대학"
+        "award-1-org": "국민대학교 소프트웨어융합대학",
+
+        "p-comm-t": "학우 전용 커뮤니티 및 인증 API 인프라",
+        "p-comm-d": "Spring Boot 기반. 학우들의 개발 진입장벽을 낮추기 위해 Google 방식의 SNS 계정 인증 시스템 및 커뮤니티 인프라 구축.",
+
+        "p-qr-t": "고등학교 급식 식권 QR 체크인 시스템",
+        "p-qr-d": "아날로그 식권 배부의 비효율성을 개선하기 위해 고교 시절 직접 설계하고 구축한 전산 QR 인프라 및 자동화 시스템",
+
+        "p-physics-t": "AI 및 컴퓨터 비전 활용 물리 교육 보조 서비스",
+        "p-physics-d": "고교 AI 활용 물리 교육 공모전 출전작.",
+
+        "p-gamebot-t": "온라인 게임 내전 밸런싱 디스코드 봇",
+        "p-gamebot-d": "전적 데이터를 분석하여 팀 간 실력 편차를 최소화하는 매칭 알고리즘 기반 자동화 봇",
+
+        "p-schebot-t": "팀 프로젝트 스케줄 관리 디스코드 봇",
+        "p-schebot-d": "일정 리마인드 및 모임 관리를 위한 디스코드 봇",
+
+        "p-trans-t": "크롬 브라우저 드래그 즉시 번역 익스텐션",
+        "p-trans-d": "웹 서핑 중 드래그한 텍스트를 즉시 번역하여 팝업으로 노출하는 생산성 향상 도구",
+
+        "p-vstheme-t": "VSCode Custom Theme Extension",
+        "p-vstheme-d": "라벤더를 컨셉으로한 vscode 테마",
+
+        "p-diary-t": "Spring Boot 개인용 다이어리 웹앱",
+        "p-diary-d": "개인 감정 기록 및 스케줄링 대시보드",
+
+        "p-openworld-t": "C# 기반 오픈월드 환경 시스템 구현",
+        "p-openworld-d": "Unity 기반 오픈월드 TPS RPG",
+
+        "p-angry-t": "Angry Birds Fan Game",
+        "p-angry-d": "Unity기반 아케이드 장르 팬게임"
     },
     en: {
         "role": "System Software & Security Research focused Developer",
@@ -88,7 +118,37 @@ const translations = {
         "edu-univ": "Kookmin University",
         "edu-major": "B.S. in Software (Junior Year)",
         "award-1-title": "8th Kookmin Univ Algorithm Contest - Honorable Mention",
-        "award-1-org": "College of Software Convergence"
+        "award-1-org": "College of Software Convergence",
+
+        "p-comm-t": "Campus Community & Auth API Infrastructure",
+        "p-comm-d": "Built a Spring Boot-based community infra with a custom SNS-style Auth API to help students familiarize themselves with modern web development ecosystems.",
+
+        "p-qr-t": "High School QR Meal Ticketing System",
+        "p-qr-d": "Designed and deployed a full-stack QR check-in infrastructure to automate and resolve the inefficiencies of analog meal ticket distribution during high school.",
+
+        "p-physics-t": "AI & Computer Vision Physics Education Assistant",
+        "p-physics-d": "Developed an AI-driven physics education service for a high school competition, utilizing computer vision for experimental analysis.",
+
+        "p-gamebot-t": "Game Balancing Discord Bot",
+        "p-gamebot-d": "An automated bot using custom matching algorithms to analyze user match history and minimize skill gaps for online gaming sessions.",
+
+        "p-schebot-t": "Schedule Management Discord Bot",
+        "p-schebot-d": "A dedicated Discord automation tool for team projects, providing real-time schedule reminders and meeting coordination.",
+
+        "p-trans-t": "Chrome Extension: Instant Drag-and-Translate",
+        "p-trans-d": "A productivity tool that provides instant translation popups for selected text while browsing. Published on the Chrome Web Store.",
+
+        "p-vstheme-t": "VSCode Custom Theme Extension",
+        "p-vstheme-d": "A lavender-themed VSCode extension designed for an aesthetic and readable development environment.",
+
+        "p-diary-t": "Spring Boot Personal Diary Web App",
+        "p-diary-d": "A full-stack web application featuring a personal mood tracker and a centralized scheduling dashboard.",
+
+        "p-openworld-t": "C#-based Open-World System Implementation",
+        "p-openworld-d": "Developed a Unity-based Open-World TPS RPG focusing on scalable environmental interaction logic.",
+
+        "p-angry-t": "Angry Birds Fan Game",
+        "p-angry-d": "A Unity-based arcade fan game project implementing core physics-based gameplay mechanics."
     }
 };
 
