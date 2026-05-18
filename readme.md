@@ -2,33 +2,22 @@
 
 ## 🚀 Minjae Joo
 
-Backend Developer focused on:
-- AI orchestration systems
-- LLM infrastructure
-- distributed backend architecture
-- simulation automation systems
+Full-stack Developer interested in:
+- backend architecture
+- infrastructure
+- automation systems
+- distributed systems
+- observability
 
 Software Major at Kookmin University.
 
----
-
-## 🔥 Featured Projects
-
-### Validator-First-Agent
-Experimental validator-first LLM orchestration architecture.
-
-### PFM Simulation Platform
-Natural language → simulation automation backend system.
-
-### Git-Hunter
-GitHub collaboration analytics platform.
-
-### Study Ssalmeok
-Lecture audio → STT → study prompt pipeline.
+Most of my work is available in the repositories below.
 
 ---
 
-## 🛠 Backend & Infrastructure
+## 🛠 Tech Stack
+
+### Backend & Infrastructure
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
@@ -38,15 +27,22 @@ Lecture audio → STT → study prompt pipeline.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
----
+### Frontend & Applications
 
-## 🤖 AI / LLM Systems
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=flat)
 
-![vLLM](https://img.shields.io/badge/vLLM-black?style=flat)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat)
-![RAG](https://img.shields.io/badge/RAG-4B8BBE?style=flat)
-![AI%20Agent](https://img.shields.io/badge/AI_Agent-6A5ACD?style=flat)
+### Other
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
 
 ---
 
