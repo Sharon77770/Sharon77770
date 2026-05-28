@@ -41,7 +41,7 @@ Validator-first local AI architecture
 - Local LLM Backend
 
 Tech:
-`Java` · `Spring Boot` · `llama.cpp` · `FastAPI` . `TS` . `React`  
+`Java` · `Spring Boot` · `llama.cpp` · `FastAPI` 
 
 ---
 
