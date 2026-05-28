@@ -1,23 +1,66 @@
-# Hi there 👋
+# 🚀 Minjae Joo
 
-## 🚀 Minjae Joo
-
-Full-stack Developer interested in:
+Backend Developer interested in:
 - backend architecture
 - infrastructure
 - automation systems
 - distributed systems
 - observability
+- local AI systems
 
-Software Major at Kookmin University.
+Software Major at Kookmin University
 
-Most of my work is available in the repositories below.
+Working on simulation platform and AI infrastructure systems at CMSL.  
+🔗 https://cmsl.kookmin.ac.kr/
 
 ---
 
-## 🛠 Tech Stack
+# 📦 Projects
 
-### Backend & Infrastructure
+## PFM Simulation Platform
+Simulation / Backend / Infrastructure / LLM
+
+Working on:
+- API Server
+- Proxy Architecture
+- Local LLM Integration
+- Monitoring Stack
+- Docker Infrastructure
+- Simulation Workflow
+- Recovery & Operations
+
+---
+
+## Jarvis Architecture
+Validator-first local AI architecture
+
+- Intent Classification
+- Structured Output
+- Automation Workflow
+- Memory / Scheduling
+- Local LLM Backend
+
+Tech:
+`Java` · `Spring Boot` · `llama.cpp` · `FastAPI` . `TS` . `React`  
+
+---
+
+## TouchBridge
+Gesture-based productivity controller
+
+- BLE / USB Communication
+- Windows Agent
+- Gesture Mapping
+- Input Automation
+
+Tech:
+`Rust` · `Android` · `Windows API`
+
+---
+
+# 🛠 Tech Stack
+
+## Backend & Infrastructure
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
@@ -29,7 +72,9 @@ Most of my work is available in the repositories below.
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
-### Frontend & Applications
+---
+
+## Frontend & Applications
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -38,7 +83,18 @@ Most of my work is available in the repositories below.
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
 ![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=flat)
 
-### Other
+---
+
+## Monitoring & AI
+
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+
+`vLLM` · `llama.cpp` · `Ollama`
+
+---
+
+## Other
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![C%23](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
@@ -46,13 +102,13 @@ Most of my work is available in the repositories below.
 
 ---
 
-## 📈 Stats
+# 📈 Stats
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=sharon77770)](https://solved.ac/sharon77770)
 
 ---
 
-## 📫 Contact
+# 📫 Contact
 
 - Email: minjaejoo77770@gmail.com
 - GitHub: https://github.com/Sharon77770
